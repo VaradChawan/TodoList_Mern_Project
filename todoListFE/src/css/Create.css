@@ -1,0 +1,26 @@
+.add-content{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.add-content input[type="text"]{
+    border:1px solid #000;
+    color: red;
+    width: 300px;
+    
+    font-size: larger;
+    height: 2.5rem;
+outline: none;
+}
+
+
+.add-content .btn-add{
+    background-color: blue;
+    color:white;
+    margin-left:10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
